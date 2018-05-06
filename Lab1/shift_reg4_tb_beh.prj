@@ -1,0 +1,5 @@
+verilog work "mux_4to1.v"
+verilog work "D_FF.v"
+verilog work "shift_reg4.v"
+verilog work "shift_reg4_tb.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

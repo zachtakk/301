@@ -1,0 +1,28 @@
+Command line:
+   sequence_detector_010110_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50234
+
+Sun Feb 18 23:19:20 2018
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 1038 Meg
+
+ Total Signals          : 45
+ Total Nets             : 35
+ Total Signal Drivers   : 25
+ Total Blocks           : 9
+ Total Primitive Blocks : 7
+ Total Processes        : 33
+ Total Traceable Variables  : 30
+ Total Scalar Nets and Variables : 205
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 1038 Meg
+
+Mon Feb 19 00:22:56 2018
+

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Zachery Takkesh/Desktop/301/xilinx/hw1_p10/adder_4_b_v_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="adder_4_b_v_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="divider6" type="divider">
+      <obj_property name="label">Zachery Takkesh</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider7" type="divider">
+      <obj_property name="label">Input</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/adder_4_b_v_tb/A" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">A[3:0]</obj_property>
+      <obj_property name="ObjectShortName">A[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/adder_4_b_v_tb/B" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">B[3:0]</obj_property>
+      <obj_property name="ObjectShortName">B[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/adder_4_b_v_tb/CO" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CO</obj_property>
+      <obj_property name="ObjectShortName">CO</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider8" type="divider">
+      <obj_property name="label">Output</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/adder_4_b_v_tb/S" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S[3:0]</obj_property>
+      <obj_property name="ObjectShortName">S[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/adder_4_b_v_tb/C4" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">C4</obj_property>
+      <obj_property name="ObjectShortName">C4</obj_property>
+   </wvobject>
+</wave_config>

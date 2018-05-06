@@ -1,0 +1,22 @@
+[Inputs]
+clk
+reset
+step
+S_Sel
+=W_Adr[2:0]=
+=S_Adr[2:0]=
+=R_Adr[2:0]=
+=ALU_OP[3:0]=
+[Outputs]
+a
+b
+c
+d
+e
+f
+g
+=anode[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel TopModule_6
+

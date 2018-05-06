@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<DeviceUsageSummary rev="2">
+<DesignStatistics TimeStamp="Wed Jan 31 21:32:06 2018"><group name="NetStatistics">
+<item name="NumNets_Active" rev="2">
+<attrib name="value" value="13"/></item>
+<item name="NumNodesOfType_Active_BENTQUAD" rev="2">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Active_DOUBLE" rev="2">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Active_GENERIC" rev="2">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Active_IOBIN2OUT" rev="2">
+<attrib name="value" value="2"/></item>
+<item name="NumNodesOfType_Active_IOBOUTPUT" rev="2">
+<attrib name="value" value="2"/></item>
+<item name="NumNodesOfType_Active_OUTBOUND" rev="2">
+<attrib name="value" value="2"/></item>
+<item name="NumNodesOfType_Active_PADINPUT" rev="2">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Active_PADOUTPUT" rev="2">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Active_PINFEED" rev="2">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Active_SINGLE" rev="2">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Active_VLONG" rev="2">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Active_VLONG12" rev="2">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Active_VQUAD" rev="2">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="MiscellaneousStatistics">
+<item name="AGG_BONDED_IO" rev="1">
+<attrib name="value" value="7"/></item>
+<item name="AGG_IO" rev="1">
+<attrib name="value" value="7"/></item>
+<item name="AGG_LOCED_IO" rev="1">
+<attrib name="value" value="7"/></item>
+<item name="NUM_BONDED_IOB33" rev="1">
+<attrib name="value" value="7"/></item>
+<item name="NUM_LOCED_IOB33" rev="1">
+<attrib name="value" value="7"/></item>
+</group>
+<group name="SiteStatistics">
+<item name="IOB33-IOB33M" rev="2">
+<attrib name="value" value="1"/></item>
+<item name="IOB33-IOB33S" rev="2">
+<attrib name="value" value="6"/></item>
+</group>
+</DesignStatistics>
+<DeviceUsage TimeStamp="Wed Jan 31 21:32:06 2018"><group name="SiteSummary">
+<item name="IOB33" rev="2">
+<attrib name="total" value="1000000"/><attrib name="used" value="7"/></item>
+<item name="IOB33_INBUF_EN" rev="2">
+<attrib name="total" value="1000000"/><attrib name="used" value="6"/></item>
+<item name="IOB33_OUTBUF" rev="2">
+<attrib name="total" value="1000000"/><attrib name="used" value="1"/></item>
+<item name="PAD" rev="2">
+<attrib name="total" value="1000000"/><attrib name="used" value="7"/></item>
+</group>
+</DeviceUsage>
+<ReportConfigData TimeStamp="Wed Jan 31 21:32:06 2018"><group name="IOB33_INBUF_EN">
+<item name="IBUF_LOW_PWR" rev="2">
+<attrib name="TRUE" value="6"/></item>
+</group>
+</ReportConfigData>
+<ReportPinData TimeStamp="Wed Jan 31 21:32:06 2018"><group name="PAD">
+<item name="PAD" rev="2">
+<attrib name="value" value="7"/></item>
+</group>
+<group name="IOB33_OUTBUF">
+<item name="IN" rev="2">
+<attrib name="value" value="1"/></item>
+<item name="OUT" rev="2">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="IOB33">
+<item name="I" rev="2">
+<attrib name="value" value="6"/></item>
+<item name="O" rev="2">
+<attrib name="value" value="1"/></item>
+<item name="PAD" rev="2">
+<attrib name="value" value="7"/></item>
+</group>
+<group name="IOB33_INBUF_EN">
+<item name="OUT" rev="2">
+<attrib name="value" value="6"/></item>
+<item name="PAD" rev="2">
+<attrib name="value" value="6"/></item>
+</group>
+</ReportPinData>
+<CmdHistory>
+</CmdHistory>
+</DeviceUsageSummary>

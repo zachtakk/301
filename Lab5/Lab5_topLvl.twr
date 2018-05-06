@@ -1,0 +1,131 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml Lab5_topLvl.twx Lab5_topLvl.ncd -o Lab5_topLvl.twr
+Lab5_topLvl.pcf -ucf UC_noFuture.ucf
+
+Design file:              Lab5_topLvl.ncd
+Physical constraint file: Lab5_topLvl.pcf
+Device,package,speed:     xc7a100t,csg324,C,-3 (PRODUCTION 1.10 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+W<0>        |    0.220(R)|      FAST  |    1.664(R)|      SLOW  |clk_BUFGP         |   0.000|
+W<1>        |    0.131(R)|      FAST  |    2.043(R)|      SLOW  |clk_BUFGP         |   0.000|
+W<2>        |   -0.146(R)|      FAST  |    2.272(R)|      SLOW  |clk_BUFGP         |   0.000|
+W<3>        |   -0.118(R)|      FAST  |    2.372(R)|      SLOW  |clk_BUFGP         |   0.000|
+W_Addr<0>   |    0.295(R)|      FAST  |    1.630(R)|      SLOW  |clk_BUFGP         |   0.000|
+W_Addr<1>   |    0.265(R)|      FAST  |    1.585(R)|      SLOW  |clk_BUFGP         |   0.000|
+W_Addr<2>   |    0.380(R)|      FAST  |    1.606(R)|      SLOW  |clk_BUFGP         |   0.000|
+reset       |    0.425(R)|      FAST  |    2.224(R)|      SLOW  |clk_BUFGP         |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock clk to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+a           |        13.410(R)|      SLOW  |         4.489(R)|      FAST  |clk_BUFGP         |   0.000|
+b           |        13.116(R)|      SLOW  |         4.383(R)|      FAST  |clk_BUFGP         |   0.000|
+c           |        13.083(R)|      SLOW  |         4.232(R)|      FAST  |clk_BUFGP         |   0.000|
+d           |        13.552(R)|      SLOW  |         4.529(R)|      FAST  |clk_BUFGP         |   0.000|
+e           |        12.959(R)|      SLOW  |         4.125(R)|      FAST  |clk_BUFGP         |   0.000|
+f           |        12.867(R)|      SLOW  |         4.157(R)|      FAST  |clk_BUFGP         |   0.000|
+g           |        12.916(R)|      SLOW  |         4.112(R)|      FAST  |clk_BUFGP         |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    3.707|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+R_Addr<0>      |a              |    9.829|
+R_Addr<0>      |b              |    9.592|
+R_Addr<0>      |c              |    9.502|
+R_Addr<0>      |d              |    9.971|
+R_Addr<0>      |e              |    9.378|
+R_Addr<0>      |f              |    9.286|
+R_Addr<0>      |g              |    9.335|
+R_Addr<1>      |a              |   11.278|
+R_Addr<1>      |b              |   10.984|
+R_Addr<1>      |c              |   10.951|
+R_Addr<1>      |d              |   11.420|
+R_Addr<1>      |e              |   10.827|
+R_Addr<1>      |f              |   10.735|
+R_Addr<1>      |g              |   10.784|
+R_Addr<2>      |a              |   11.178|
+R_Addr<2>      |b              |   10.876|
+R_Addr<2>      |c              |   10.842|
+R_Addr<2>      |d              |   11.312|
+R_Addr<2>      |e              |   10.472|
+R_Addr<2>      |f              |   10.634|
+R_Addr<2>      |g              |   10.415|
+S_Addr<0>      |a              |   10.140|
+S_Addr<0>      |b              |    9.834|
+S_Addr<0>      |c              |    9.798|
+S_Addr<0>      |d              |   10.267|
+S_Addr<0>      |e              |    9.567|
+S_Addr<0>      |f              |    9.597|
+S_Addr<0>      |g              |    9.510|
+S_Addr<1>      |a              |   10.889|
+S_Addr<1>      |b              |   10.595|
+S_Addr<1>      |c              |   10.562|
+S_Addr<1>      |d              |   11.031|
+S_Addr<1>      |e              |   10.438|
+S_Addr<1>      |f              |   10.346|
+S_Addr<1>      |g              |   10.395|
+S_Addr<2>      |a              |   12.325|
+S_Addr<2>      |b              |   12.031|
+S_Addr<2>      |c              |   11.998|
+S_Addr<2>      |d              |   12.467|
+S_Addr<2>      |e              |   11.874|
+S_Addr<2>      |f              |   11.782|
+S_Addr<2>      |g              |   11.831|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Mar 14 21:51:52 2018 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 708 MB
+
+
+

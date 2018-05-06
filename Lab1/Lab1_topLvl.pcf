@@ -1,0 +1,30 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Feb 13 15:10:40 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk_100MHz" LOCATE = SITE "E3" LEVEL 1;
+COMP "M<0>" LOCATE = SITE "U18" LEVEL 1;
+COMP "M<1>" LOCATE = SITE "R13" LEVEL 1;
+COMP "D<0>" LOCATE = SITE "J15" LEVEL 1;
+COMP "D<1>" LOCATE = SITE "L16" LEVEL 1;
+COMP "Q<0>" LOCATE = SITE "H17" LEVEL 1;
+COMP "SI" LOCATE = SITE "T18" LEVEL 1;
+COMP "D<2>" LOCATE = SITE "M13" LEVEL 1;
+COMP "Q<1>" LOCATE = SITE "K15" LEVEL 1;
+COMP "D<3>" LOCATE = SITE "R15" LEVEL 1;
+COMP "Q<2>" LOCATE = SITE "J13" LEVEL 1;
+COMP "Q<3>" LOCATE = SITE "N14" LEVEL 1;
+COMP "reset" LOCATE = SITE "M18" LEVEL 1;
+COMP "step" LOCATE = SITE "P18" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "clk0/i_31" BEL "clk0/i_30" BEL "clk0/i_29" BEL
+        "clk0/i_28" BEL "clk0/i_27" BEL "clk0/i_26" BEL "clk0/i_25" BEL
+        "clk0/i_24" BEL "clk0/i_23" BEL "clk0/i_22" BEL "clk0/i_21" BEL
+        "clk0/i_20" BEL "clk0/i_19" BEL "clk0/i_18" BEL "clk0/i_17" BEL
+        "clk0/i_16" BEL "clk0/i_15" BEL "clk0/i_14" BEL "clk0/i_13" BEL
+        "clk0/i_12" BEL "clk0/i_11" BEL "clk0/i_10" BEL "clk0/i_9" BEL
+        "clk0/i_8" BEL "clk0/i_7" BEL "clk0/i_6" BEL "clk0/i_5" BEL "clk0/i_4"
+        BEL "clk0/i_3" BEL "clk0/i_2" BEL "clk0/i_1" BEL "clk0/i_0" BEL
+        "clk0/clk_out" BEL "clk_100MHz_BUFGP/BUFG";
+SCHEMATIC END;
+

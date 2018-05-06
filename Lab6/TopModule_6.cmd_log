@@ -1,0 +1,64 @@
+xst -intstyle ise -ifn "C:/Users/Vinh/Documents/Vu_301/Lab6/TopModule_6.xst" -ofn "C:/Users/Vinh/Documents/Vu_301/Lab6/TopModule_6.syr" 
+xst -intstyle ise -ifn "C:/Users/Vinh/Documents/Vu_301/Lab6/TopModule_6.xst" -ofn "C:/Users/Vinh/Documents/Vu_301/Lab6/TopModule_6.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_XC7A100T_ISE-Template.ucf -p xc7a100t-csg324-3 TopModule_6.ngc TopModule_6.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o TopModule_6_map.ncd TopModule_6.ngd TopModule_6.pcf 
+par -w -intstyle ise -ol high -mt off TopModule_6_map.ncd TopModule_6.ncd TopModule_6.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopModule_6.twx TopModule_6.ncd -o TopModule_6.twr TopModule_6.pcf -ucf Nexys4DDR_XC7A100T_ISE-Template.ucf 
+bitgen -intstyle ise -f TopModule_6.ut TopModule_6.ncd 
+xst -intstyle ise -ifn "C:/Users/Vinh/Documents/Vu_301/Lab6/TopModule_6.xst" -ofn "C:/Users/Vinh/Documents/Vu_301/Lab6/TopModule_6.syr" 
+xst -intstyle ise -ifn "C:/Users/Vinh/Documents/Vu_301/Lab6/TopModule_6.xst" -ofn "C:/Users/Vinh/Documents/Vu_301/Lab6/TopModule_6.syr" 
+xst -intstyle ise -ifn "C:/Users/Vinh/Documents/Vu_301/Lab6/TopModule_6.xst" -ofn "C:/Users/Vinh/Documents/Vu_301/Lab6/TopModule_6.syr" 
+xst -intstyle ise -ifn "C:/Users/Vinh/Documents/Vu_301/Lab6/TopModule_6.xst" -ofn "C:/Users/Vinh/Documents/Vu_301/Lab6/TopModule_6.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_XC7A100T_ISE-Template.ucf -p xc7a100t-csg324-3 TopModule_6.ngc TopModule_6.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o TopModule_6_map.ncd TopModule_6.ngd TopModule_6.pcf 
+par -w -intstyle ise -ol high -mt off TopModule_6_map.ncd TopModule_6.ncd TopModule_6.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopModule_6.twx TopModule_6.ncd -o TopModule_6.twr TopModule_6.pcf -ucf Nexys4DDR_XC7A100T_ISE-Template.ucf 
+bitgen -intstyle ise -f TopModule_6.ut TopModule_6.ncd 
+xst -intstyle ise -ifn "C:/Users/Vinh/Documents/Vu_301/Lab6/TopModule_6.xst" -ofn "C:/Users/Vinh/Documents/Vu_301/Lab6/TopModule_6.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_XC7A100T_ISE-Template.ucf -p xc7a100t-csg324-3 TopModule_6.ngc TopModule_6.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o TopModule_6_map.ncd TopModule_6.ngd TopModule_6.pcf 
+par -w -intstyle ise -ol high -mt off TopModule_6_map.ncd TopModule_6.ncd TopModule_6.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopModule_6.twx TopModule_6.ncd -o TopModule_6.twr TopModule_6.pcf -ucf Nexys4DDR_XC7A100T_ISE-Template.ucf 
+bitgen -intstyle ise -f TopModule_6.ut TopModule_6.ncd 
+xst -intstyle ise -ifn "C:/Users/Vinh/Documents/Vu_301/Lab6/TopModule_6.xst" -ofn "C:/Users/Vinh/Documents/Vu_301/Lab6/TopModule_6.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_XC7A100T_ISE-Template.ucf -p xc7a100t-csg324-3 TopModule_6.ngc TopModule_6.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o TopModule_6_map.ncd TopModule_6.ngd TopModule_6.pcf 
+par -w -intstyle ise -ol high -mt off TopModule_6_map.ncd TopModule_6.ncd TopModule_6.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopModule_6.twx TopModule_6.ncd -o TopModule_6.twr TopModule_6.pcf -ucf Nexys4DDR_XC7A100T_ISE-Template.ucf 
+bitgen -intstyle ise -f TopModule_6.ut TopModule_6.ncd 
+xst -intstyle ise -ifn "C:/Users/Vinh/Documents/Vu_301/Lab6/TopModule_6.xst" -ofn "C:/Users/Vinh/Documents/Vu_301/Lab6/TopModule_6.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_XC7A100T_ISE-Template.ucf -p xc7a100t-csg324-3 TopModule_6.ngc TopModule_6.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o TopModule_6_map.ncd TopModule_6.ngd TopModule_6.pcf 
+par -w -intstyle ise -ol high -mt off TopModule_6_map.ncd TopModule_6.ncd TopModule_6.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopModule_6.twx TopModule_6.ncd -o TopModule_6.twr TopModule_6.pcf -ucf Nexys4DDR_XC7A100T_ISE-Template.ucf 
+bitgen -intstyle ise -f TopModule_6.ut TopModule_6.ncd 
+xst -intstyle ise -ifn "C:/Users/Vinh/Documents/Vu_301/Lab6/TopModule_6.xst" -ofn "C:/Users/Vinh/Documents/Vu_301/Lab6/TopModule_6.syr" 
+xst -intstyle ise -ifn "C:/Users/Vinh/Documents/Vu_301/Lab6/TopModule_6.xst" -ofn "C:/Users/Vinh/Documents/Vu_301/Lab6/TopModule_6.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_XC7A100T_ISE-Template.ucf -p xc7a100t-csg324-3 TopModule_6.ngc TopModule_6.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o TopModule_6_map.ncd TopModule_6.ngd TopModule_6.pcf 
+par -w -intstyle ise -ol high -mt off TopModule_6_map.ncd TopModule_6.ncd TopModule_6.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopModule_6.twx TopModule_6.ncd -o TopModule_6.twr TopModule_6.pcf -ucf Nexys4DDR_XC7A100T_ISE-Template.ucf 
+bitgen -intstyle ise -f TopModule_6.ut TopModule_6.ncd 
+xst -intstyle ise -ifn "C:/Users/Vinh/Documents/Vu_301/Lab6/TopModule_6.xst" -ofn "C:/Users/Vinh/Documents/Vu_301/Lab6/TopModule_6.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_XC7A100T_ISE-Template.ucf -p xc7a100t-csg324-3 TopModule_6.ngc TopModule_6.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o TopModule_6_map.ncd TopModule_6.ngd TopModule_6.pcf 
+par -w -intstyle ise -ol high -mt off TopModule_6_map.ncd TopModule_6.ncd TopModule_6.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopModule_6.twx TopModule_6.ncd -o TopModule_6.twr TopModule_6.pcf -ucf Nexys4DDR_XC7A100T_ISE-Template.ucf 
+bitgen -intstyle ise -f TopModule_6.ut TopModule_6.ncd 
+vhdtdtfi -lib work C:/Users/Vinh/Documents/Vu_301/Lab6/TopModule_6.v -lang verilog -prj Lab6 -o TopModule_6.spl -module TopModule_6 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 TopModule_6.spl C:/Users/Vinh/Documents/Vu_301/Lab6/TopModule_6.sym 
+vhdtdtfi -lang verilog -prj Lab6 -o C:/Users/Vinh/Documents/Vu_301/Lab6/TopModule_6.tfi -lib work C:/Users/Vinh/Documents/Vu_301/Lab6//TopModule_6.v -module TopModule_6 -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+xst -intstyle ise -ifn "C:/Users/Vinh/Documents/Vu_301/Lab6/TopModule_6.xst" -ofn "C:/Users/Vinh/Documents/Vu_301/Lab6/TopModule_6.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_XC7A100T_ISE-Template.ucf -p xc7a100t-csg324-3 TopModule_6.ngc TopModule_6.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o TopModule_6_map.ncd TopModule_6.ngd TopModule_6.pcf 
+par -w -intstyle ise -ol high -mt off TopModule_6_map.ncd TopModule_6.ncd TopModule_6.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopModule_6.twx TopModule_6.ncd -o TopModule_6.twr TopModule_6.pcf -ucf Nexys4DDR_XC7A100T_ISE-Template.ucf 
+bitgen -intstyle ise -f TopModule_6.ut TopModule_6.ncd 
+xst -intstyle ise -ifn "C:/Users/Vinh/Documents/Vu_301/Lab6/TopModule_6.xst" -ofn "C:/Users/Vinh/Documents/Vu_301/Lab6/TopModule_6.syr" 
+xst -intstyle ise -ifn "C:/Users/Vinh/Documents/Vu_301/Lab6/TopModule_6.xst" -ofn "C:/Users/Vinh/Documents/Vu_301/Lab6/TopModule_6.syr" 
+xst -intstyle ise -ifn "C:/Users/Vinh/Documents/Vu_301/Lab6/TopModule_6.xst" -ofn "C:/Users/Vinh/Documents/Vu_301/Lab6/TopModule_6.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_XC7A100T_ISE-Template.ucf -p xc7a100t-csg324-3 TopModule_6.ngc TopModule_6.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o TopModule_6_map.ncd TopModule_6.ngd TopModule_6.pcf 
+par -w -intstyle ise -ol high -mt off TopModule_6_map.ncd TopModule_6.ncd TopModule_6.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopModule_6.twx TopModule_6.ncd -o TopModule_6.twr TopModule_6.pcf -ucf Nexys4DDR_XC7A100T_ISE-Template.ucf 
+bitgen -intstyle ise -f TopModule_6.ut TopModule_6.ncd 

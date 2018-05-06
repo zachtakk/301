@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab1/shift_reg4_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="shift_reg4_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="divider7" type="divider">
+      <obj_property name="label">Zachery Takkesh</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider8" type="divider">
+      <obj_property name="label">input</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/shift_reg4_tb/D" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">D[3:0]</obj_property>
+      <obj_property name="ObjectShortName">D[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/shift_reg4_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/shift_reg4_tb/M" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">M[1:0]</obj_property>
+      <obj_property name="ObjectShortName">M[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/shift_reg4_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/shift_reg4_tb/SI" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SI</obj_property>
+      <obj_property name="ObjectShortName">SI</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider9" type="divider">
+      <obj_property name="label">output</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/shift_reg4_tb/Q" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Q[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[3:0]</obj_property>
+   </wvobject>
+</wave_config>

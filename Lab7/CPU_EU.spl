@@ -1,0 +1,20 @@
+[Inputs]
+clk
+reset
+adr_sel
+s_sel
+pc_ld
+pc_inc
+reg_W_en
+ir_ld
+=din[15:0]=
+[Outputs]
+C
+N
+Z
+=address[15:0]=
+=dout[15:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel CPU_EU
+

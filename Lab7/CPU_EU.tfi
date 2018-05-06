@@ -1,0 +1,22 @@
+
+
+
+// Instantiate the module
+CPU_EU instance_name (
+    .clk(clk), 
+    .reset(reset), 
+    .din(din), 
+    .address(address), 
+    .dout(dout), 
+    .adr_sel(adr_sel), 
+    .s_sel(s_sel), 
+    .pc_ld(pc_ld), 
+    .pc_inc(pc_inc), 
+    .reg_W_en(reg_W_en), 
+    .ir_ld(ir_ld), 
+    .C(C), 
+    .N(N), 
+    .Z(Z)
+    );
+
+

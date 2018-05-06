@@ -1,0 +1,33 @@
+xst -intstyle ise -ifn "C:/Users/Vinh/Documents/Vu_301/Lab7/Lab7/Lab7/Lab7_TopModule.xst" -ofn "C:/Users/Vinh/Documents/Vu_301/Lab7/Lab7/Lab7/Lab7_TopModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/Lab7/Lab7_TopModule.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/Lab7/Lab7_TopModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/Lab7/Lab7_TopModule.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/Lab7/Lab7_TopModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/Lab7/Lab7_TopModule.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/Lab7/Lab7_TopModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/Lab7/Lab7_TopModule.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/Lab7/Lab7_TopModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/Lab7/Lab7_TopModule.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/Lab7/Lab7_TopModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/Lab7/Lab7_TopModule.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/Lab7/Lab7_TopModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/Lab7/Lab7_TopModule.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/Lab7/Lab7_TopModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/Lab7/Lab7_TopModule.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/Lab7/Lab7_TopModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/Lab7/Lab7_TopModule.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/Lab7/Lab7_TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_XC7A100T_ISE-Template.ucf -p xc7a100t-csg324-3 "Lab7_TopModule.ngc" Lab7_TopModule.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab7_TopModule_map.ncd Lab7_TopModule.ngd Lab7_TopModule.pcf 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/Lab7/Lab7_TopModule.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/Lab7/Lab7_TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_XC7A100T_ISE-Template.ucf -p xc7a100t-csg324-3 "Lab7_TopModule.ngc" Lab7_TopModule.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab7_TopModule_map.ncd Lab7_TopModule.ngd Lab7_TopModule.pcf 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/Lab7/Lab7_TopModule.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/Lab7/Lab7_TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_XC7A100T_ISE-Template.ucf -p xc7a100t-csg324-3 "Lab7_TopModule.ngc" Lab7_TopModule.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab7_TopModule_map.ncd Lab7_TopModule.ngd Lab7_TopModule.pcf 
+par -w -intstyle ise -ol high -mt off Lab7_TopModule_map.ncd Lab7_TopModule.ncd Lab7_TopModule.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab7_TopModule.twx Lab7_TopModule.ncd -o Lab7_TopModule.twr Lab7_TopModule.pcf -ucf Nexys4DDR_XC7A100T_ISE-Template.ucf 
+bitgen -intstyle ise -f Lab7_TopModule.ut Lab7_TopModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/Lab7/Lab7_TopModule.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/Lab7/Lab7_TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_XC7A100T_ISE-Template.ucf -p xc7a100t-csg324-3 "Lab7_TopModule.ngc" Lab7_TopModule.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab7_TopModule_map.ncd Lab7_TopModule.ngd Lab7_TopModule.pcf 
+par -w -intstyle ise -ol high -mt off Lab7_TopModule_map.ncd Lab7_TopModule.ncd Lab7_TopModule.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab7_TopModule.twx Lab7_TopModule.ncd -o Lab7_TopModule.twr Lab7_TopModule.pcf -ucf Nexys4DDR_XC7A100T_ISE-Template.ucf 
+bitgen -intstyle ise -f Lab7_TopModule.ut Lab7_TopModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/Lab7/Lab7_TopModule.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/Lab7/Lab7_TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_XC7A100T_ISE-Template.ucf -p xc7a100t-csg324-3 "Lab7_TopModule.ngc" Lab7_TopModule.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab7_TopModule_map.ncd Lab7_TopModule.ngd Lab7_TopModule.pcf 
+par -w -intstyle ise -ol high -mt off Lab7_TopModule_map.ncd Lab7_TopModule.ncd Lab7_TopModule.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab7_TopModule.twx Lab7_TopModule.ncd -o Lab7_TopModule.twr Lab7_TopModule.pcf -ucf Nexys4DDR_XC7A100T_ISE-Template.ucf 
+bitgen -intstyle ise -f Lab7_TopModule.ut Lab7_TopModule.ncd 

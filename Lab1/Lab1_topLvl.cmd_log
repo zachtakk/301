@@ -1,0 +1,70 @@
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab1/Lab1_topLvl.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab1/Lab1_topLvl.syr" 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab1/Lab1_topLvl.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab1/Lab1_topLvl.syr" 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab1/Lab1_topLvl.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab1/Lab1_topLvl.syr" 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab1/Lab1_topLvl.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab1/Lab1_topLvl.syr" 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab1/Lab1_topLvl.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab1/Lab1_topLvl.syr" 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab1/Lab1_topLvl.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab1/Lab1_topLvl.syr" 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab1/Lab1_topLvl.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab1/Lab1_topLvl.syr" 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab1/Lab1_topLvl.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab1/Lab1_topLvl.syr" 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab1/Lab1_topLvl.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab1/Lab1_topLvl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "Lab1_topLvl.ngc" Lab1_topLvl.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab1_topLvl_map.ncd Lab1_topLvl.ngd Lab1_topLvl.pcf 
+par -w -intstyle ise -ol high -mt off Lab1_topLvl_map.ncd Lab1_topLvl.ncd Lab1_topLvl.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab1_topLvl.twx Lab1_topLvl.ncd -o Lab1_topLvl.twr Lab1_topLvl.pcf 
+bitgen -intstyle ise -f Lab1_topLvl.ut Lab1_topLvl.ncd 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab1/Lab1_topLvl.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab1/Lab1_topLvl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "Lab1_topLvl.ngc" Lab1_topLvl.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab1_topLvl_map.ncd Lab1_topLvl.ngd Lab1_topLvl.pcf 
+par -w -intstyle ise -ol high -mt off Lab1_topLvl_map.ncd Lab1_topLvl.ncd Lab1_topLvl.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab1_topLvl.twx Lab1_topLvl.ncd -o Lab1_topLvl.twr Lab1_topLvl.pcf 
+bitgen -intstyle ise -f Lab1_topLvl.ut Lab1_topLvl.ncd 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab1/Lab1_topLvl.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab1/Lab1_topLvl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "Lab1_topLvl.ngc" Lab1_topLvl.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab1_topLvl_map.ncd Lab1_topLvl.ngd Lab1_topLvl.pcf 
+par -w -intstyle ise -ol high -mt off Lab1_topLvl_map.ncd Lab1_topLvl.ncd Lab1_topLvl.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab1_topLvl.twx Lab1_topLvl.ncd -o Lab1_topLvl.twr Lab1_topLvl.pcf 
+bitgen -intstyle ise -f Lab1_topLvl.ut Lab1_topLvl.ncd 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab1/Lab1_topLvl.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab1/Lab1_topLvl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "Lab1_topLvl.ngc" Lab1_topLvl.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab1_topLvl_map.ncd Lab1_topLvl.ngd Lab1_topLvl.pcf 
+par -w -intstyle ise -ol high -mt off Lab1_topLvl_map.ncd Lab1_topLvl.ncd Lab1_topLvl.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab1_topLvl.twx Lab1_topLvl.ncd -o Lab1_topLvl.twr Lab1_topLvl.pcf 
+bitgen -intstyle ise -f Lab1_topLvl.ut Lab1_topLvl.ncd 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab1/Lab1_topLvl.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab1/Lab1_topLvl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "Lab1_topLvl.ngc" Lab1_topLvl.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab1_topLvl_map.ncd Lab1_topLvl.ngd Lab1_topLvl.pcf 
+par -w -intstyle ise -ol high -mt off Lab1_topLvl_map.ncd Lab1_topLvl.ncd Lab1_topLvl.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab1_topLvl.twx Lab1_topLvl.ncd -o Lab1_topLvl.twr Lab1_topLvl.pcf 
+bitgen -intstyle ise -f Lab1_topLvl.ut Lab1_topLvl.ncd 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab1/Lab1_topLvl.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab1/Lab1_topLvl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "Lab1_topLvl.ngc" Lab1_topLvl.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab1_topLvl_map.ncd Lab1_topLvl.ngd Lab1_topLvl.pcf 
+par -w -intstyle ise -ol high -mt off Lab1_topLvl_map.ncd Lab1_topLvl.ncd Lab1_topLvl.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab1_topLvl.twx Lab1_topLvl.ncd -o Lab1_topLvl.twr Lab1_topLvl.pcf 
+bitgen -intstyle ise -f Lab1_topLvl.ut Lab1_topLvl.ncd 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab1/Lab1_topLvl.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab1/Lab1_topLvl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab1_topLvl.ucf -p xc7a100t-csg324-3 "Lab1_topLvl.ngc" Lab1_topLvl.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab1_topLvl_map.ncd Lab1_topLvl.ngd Lab1_topLvl.pcf 
+par -w -intstyle ise -ol high -mt off Lab1_topLvl_map.ncd Lab1_topLvl.ncd Lab1_topLvl.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab1_topLvl.twx Lab1_topLvl.ncd -o Lab1_topLvl.twr Lab1_topLvl.pcf -ucf Lab1_topLvl.ucf 
+bitgen -intstyle ise -f Lab1_topLvl.ut Lab1_topLvl.ncd 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab1/Lab1_topLvl.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab1/Lab1_topLvl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab1_topLvl.ucf -p xc7a100t-csg324-3 "Lab1_topLvl.ngc" Lab1_topLvl.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab1_topLvl_map.ncd Lab1_topLvl.ngd Lab1_topLvl.pcf 
+par -w -intstyle ise -ol high -mt off Lab1_topLvl_map.ncd Lab1_topLvl.ncd Lab1_topLvl.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab1_topLvl.twx Lab1_topLvl.ncd -o Lab1_topLvl.twr Lab1_topLvl.pcf -ucf Lab1_topLvl.ucf 
+bitgen -intstyle ise -f Lab1_topLvl.ut Lab1_topLvl.ncd 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab1/Lab1_topLvl.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab1/Lab1_topLvl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab1_topLvl.ucf -p xc7a100t-csg324-3 "Lab1_topLvl.ngc" Lab1_topLvl.ngd  
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab1/Lab1_topLvl.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab1/Lab1_topLvl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab1_topLvl.ucf -p xc7a100t-csg324-3 "Lab1_topLvl.ngc" Lab1_topLvl.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab1_topLvl_map.ncd Lab1_topLvl.ngd Lab1_topLvl.pcf 
+par -w -intstyle ise -ol high -mt off Lab1_topLvl_map.ncd Lab1_topLvl.ncd Lab1_topLvl.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab1_topLvl.twx Lab1_topLvl.ncd -o Lab1_topLvl.twr Lab1_topLvl.pcf -ucf Lab1_topLvl.ucf 
+bitgen -intstyle ise -f Lab1_topLvl.ut Lab1_topLvl.ncd 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab1/Lab1_topLvl.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab1/Lab1_topLvl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab1_topLvl.ucf -p xc7a100t-csg324-3 "Lab1_topLvl.ngc" Lab1_topLvl.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab1_topLvl_map.ncd Lab1_topLvl.ngd Lab1_topLvl.pcf 
+par -w -intstyle ise -ol high -mt off Lab1_topLvl_map.ncd Lab1_topLvl.ncd Lab1_topLvl.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab1_topLvl.twx Lab1_topLvl.ncd -o Lab1_topLvl.twr Lab1_topLvl.pcf -ucf Lab1_topLvl.ucf 
+bitgen -intstyle ise -f Lab1_topLvl.ut Lab1_topLvl.ncd 

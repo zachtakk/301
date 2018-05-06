@@ -1,0 +1,38 @@
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/tester1/and_or.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/tester1/and_or.syr" 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/tester1/and_or.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/tester1/and_or.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc and_or.ucf -p xc6slx4-tqg144-3 "and_or.ngc" and_or.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o and_or_map.ncd and_or.ngd and_or.pcf 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/tester1/and_or.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/tester1/and_or.syr" 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/tester1/and_or.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/tester1/and_or.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc and_or.ucf -p xc6slx4-tqg144-3 "and_or.ngc" and_or.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o and_or_map.ncd and_or.ngd and_or.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc and_or.ucf -p xc6slx4-tqg144-3 "and_or.ngc" and_or.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc and_or.ucf -p xc6slx4-tqg144-3 "and_or.ngc" and_or.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o and_or_map.ncd and_or.ngd and_or.pcf 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/tester1/and_or.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/tester1/and_or.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc and_or.ucf -p xc6slx4-tqg144-3 "and_or.ngc" and_or.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o and_or_map.ncd and_or.ngd and_or.pcf 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/tester1/and_or.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/tester1/and_or.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc and_or.ucf -p xc6slx4-tqg144-3 "and_or.ngc" and_or.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o and_or_map.ncd and_or.ngd and_or.pcf 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/tester1/and_or.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/tester1/and_or.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc and_or.ucf -p xc6slx4-tqg144-3 "and_or.ngc" and_or.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o and_or_map.ncd and_or.ngd and_or.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc and_or.ucf -p xc6slx4-tqg144-3 "and_or.ngc" and_or.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o and_or_map.ncd and_or.ngd and_or.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc and_or.ucf -p xc6slx4-tqg144-3 "and_or.ngc" and_or.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o and_or_map.ncd and_or.ngd and_or.pcf 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/tester1/and_or.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/tester1/and_or.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc and_or.ucf -p xc6slx4-tqg144-3 "and_or.ngc" and_or.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o and_or_map.ncd and_or.ngd and_or.pcf 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/tester1/and_or.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/tester1/and_or.syr" 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/tester1/and_or.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/tester1/and_or.syr" 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/tester1/and_or.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/tester1/and_or.syr" 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/tester1/and_or.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/tester1/and_or.syr" 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/tester1/and_or.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/tester1/and_or.syr" 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/tester1/and_or.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/tester1/and_or.syr" 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/tester1/and_or.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/tester1/and_or.syr" 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/tester1/and_or.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/tester1/and_or.syr" 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/tester1/and_or.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/tester1/and_or.syr" 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/tester1/and_or.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/tester1/and_or.syr" 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/tester1/and_or.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/tester1/and_or.syr" 

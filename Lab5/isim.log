@@ -1,0 +1,19 @@
+ISim log file
+Running: C:\Users\Zachery Takkesh\Desktop\Lab5\lab5_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Zachery Takkesh/Desktop/Lab5/lab5_tb_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 100 fs
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ R_Addr = 0 , S_Addr = 4, R = 0000 , S= 0000
+ R_Addr = 1 , S_Addr = 5, R = 0000 , S= 0000
+ R_Addr = 2 , S_Addr = 6, R = 0000 , S= 0000
+ R_Addr = 3 , S_Addr = 7, R = 0000 , S= 0000
+ R_Addr = 0 , S_Addr = 4, R = ffff , S= fffb
+ R_Addr = 1 , S_Addr = 5, R = fffe , S= fffa
+ R_Addr = 2 , S_Addr = 6, R = fffd , S= fff9
+ R_Addr = 3 , S_Addr = 7, R = fffc , S= fff8
+Stopped at time : 925 ps : File "C:/Users/Zachery Takkesh/Desktop/Lab5/lab5_tb.v" Line 84

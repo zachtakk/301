@@ -1,0 +1,5 @@
+verilog work "dff.v"
+verilog work "sequence_detector_010110.v"
+verilog work "one_shot.v"
+verilog work "clk_div.v"
+verilog work "Lab2_topLvl.v"

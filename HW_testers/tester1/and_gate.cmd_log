@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/tester1/and_gate.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/tester1/and_gate.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc and_or.ucf -p xc6slx4-tqg144-3 "and_gate.ngc" and_gate.ngd  

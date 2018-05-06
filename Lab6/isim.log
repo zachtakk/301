@@ -1,0 +1,62 @@
+ISim log file
+Running: C:\Users\Zachery Takkesh\Desktop\Lab6\alu16_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Zachery Takkesh/Desktop/Lab6/alu16_tb_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+R=0001 S=0003 Y=0003 C=0
+R=0002 S=0004 Y=0004 C=0
+R=0003 S=0005 Y=0005 C=0
+R=0004 S=0006 Y=0006 C=0
+R=0004 S=0006 Y=0004 C=0
+R=0005 S=0007 Y=0005 C=0
+R=0006 S=0008 Y=0006 C=0
+R=0007 S=0009 Y=0007 C=0
+R=0001 S=0001 Y=0002 C=0
+R=0003 S=0005 Y=0006 C=0
+R=0005 S=0009 Y=000a C=0
+R=0007 S=000d Y=000e C=0
+R=0003 S=0001 Y=0004 C=0
+R=0008 S=0006 Y=000e C=0
+R=000d S=000b Y=0018 C=0
+R=0012 S=0010 Y=0022 C=0
+R=0004 S=0002 Y=0002 C=0
+R=0005 S=0003 Y=0002 C=0
+R=000c S=000a Y=0002 C=0
+R=001f S=001d Y=0002 C=0
+R=0008 S=0004 Y=0002 C=0
+R=0009 S=0005 Y=0002 C=1
+R=000a S=0006 Y=0003 C=0
+R=000b S=0007 Y=0003 C=1
+R=0003 S=0001 Y=0002 C=0
+R=0005 S=0003 Y=0006 C=0
+R=0007 S=0005 Y=000a C=0
+R=0009 S=0007 Y=000e C=0
+R=0005 S=0002 Y=0000 C=0
+R=0006 S=0003 Y=0002 C=0
+R=0007 S=0004 Y=0004 C=0
+R=0008 S=0005 Y=0000 C=0
+R=0003 S=0006 Y=0007 C=0
+R=0004 S=0007 Y=0007 C=0
+R=0005 S=0008 Y=000d C=0
+R=0006 S=0009 Y=000f C=0
+R=0000 S=0004 Y=0004 C=0
+R=0002 S=0005 Y=0007 C=0
+R=0004 S=0006 Y=0002 C=0
+R=0006 S=0007 Y=0001 C=0
+R=0000 S=0009 Y=fff6 C=0
+R=0001 S=000a Y=fff5 C=0
+R=0002 S=000b Y=fff4 C=0
+R=0003 S=000c Y=fff3 C=0
+R=0000 S=0003 Y=fffd C=1
+R=0001 S=0005 Y=fffb C=1
+R=0002 S=0007 Y=fff9 C=1
+R=0003 S=0009 Y=fff7 C=1
+R=0007 S=0002 Y=0002 C=0
+R=0005 S=0001 Y=0001 C=0
+R=0001 S=0000 Y=0000 C=0
+R=fffb S=ffff Y=ffff C=0

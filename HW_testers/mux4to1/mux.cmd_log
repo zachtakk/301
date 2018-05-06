@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/mux4to1/mux.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/mux4to1/mux.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mux.ucf -p xc7a100t-csg324-3 "mux.ngc" mux.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mux.ucf -p xc7a100t-csg324-3 "mux.ngc" mux.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mux_map.ncd mux.ngd mux.pcf 
+par -w -intstyle ise -ol high -mt off mux_map.ncd mux.ncd mux.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mux.twx mux.ncd -o mux.twr mux.pcf -ucf mux.ucf 
+bitgen -intstyle ise -f mux.ut mux.ncd 

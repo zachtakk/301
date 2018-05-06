@@ -1,0 +1,23 @@
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab5/Lab5_topLvl.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab5/Lab5_topLvl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UC_noFuture.ucf -p xc7a100t-csg324-3 "Lab5_topLvl.ngc" Lab5_topLvl.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab5_topLvl_map.ncd Lab5_topLvl.ngd Lab5_topLvl.pcf 
+par -w -intstyle ise -ol high -mt off Lab5_topLvl_map.ncd Lab5_topLvl.ncd Lab5_topLvl.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab5_topLvl.twx Lab5_topLvl.ncd -o Lab5_topLvl.twr Lab5_topLvl.pcf -ucf UC_noFuture.ucf 
+bitgen -intstyle ise -f Lab5_topLvl.ut Lab5_topLvl.ncd 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab5/Lab5_topLvl.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab5/Lab5_topLvl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UC_noFuture.ucf -p xc7a100t-csg324-3 "Lab5_topLvl.ngc" Lab5_topLvl.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab5_topLvl_map.ncd Lab5_topLvl.ngd Lab5_topLvl.pcf 
+par -w -intstyle ise -ol high -mt off Lab5_topLvl_map.ncd Lab5_topLvl.ncd Lab5_topLvl.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab5_topLvl.twx Lab5_topLvl.ncd -o Lab5_topLvl.twr Lab5_topLvl.pcf -ucf UC_noFuture.ucf 
+bitgen -intstyle ise -f Lab5_topLvl.ut Lab5_topLvl.ncd 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab5/Lab5_topLvl.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/301/xilinx/Lab5/Lab5_topLvl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UC_noFuture.ucf -p xc7a100t-csg324-3 "Lab5_topLvl.ngc" Lab5_topLvl.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab5_topLvl_map.ncd Lab5_topLvl.ngd Lab5_topLvl.pcf 
+par -w -intstyle ise -ol high -mt off Lab5_topLvl_map.ncd Lab5_topLvl.ncd Lab5_topLvl.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab5_topLvl.twx Lab5_topLvl.ncd -o Lab5_topLvl.twr Lab5_topLvl.pcf -ucf UC_noFuture.ucf 
+bitgen -intstyle ise -f Lab5_topLvl.ut Lab5_topLvl.ncd 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/Lab5/Lab5_topLvl.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/Lab5/Lab5_topLvl.syr" 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/Lab5/Lab5_topLvl.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/Lab5/Lab5_topLvl.syr" 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/Lab5/Lab5_topLvl.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/Lab5/Lab5_topLvl.syr" 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/Lab5/Lab5_topLvl.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/Lab5/Lab5_topLvl.syr" 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/Lab5/Lab5_topLvl.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/Lab5/Lab5_topLvl.syr" 

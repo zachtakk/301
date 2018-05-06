@@ -1,0 +1,6 @@
+verilog work "mux_4to1.v"
+verilog work "D_FF.v"
+verilog work "shift_reg4.v"
+verilog work "one_shot.v"
+verilog work "clk_div.v"
+verilog work "Lab1_topLvl.v"

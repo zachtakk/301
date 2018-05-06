@@ -1,0 +1,7 @@
+verilog isim_temp "dff.v"
+verilog isim_temp "sequence_detector_010110.v"
+verilog isim_temp "Hex_to_7Seg.v"
+verilog isim_temp "debounce.v"
+verilog isim_temp "clk_div.v"
+verilog isim_temp "Lab3_topLvl.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

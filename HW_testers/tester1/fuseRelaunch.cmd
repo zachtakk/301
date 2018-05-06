@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/Zachery Takkesh/Desktop/301/xilinx/tester1/and_or_isim_beh.exe" -prj "C:/Users/Zachery Takkesh/Desktop/301/xilinx/tester1/and_or_beh.prj" "work.and_or" "work.glbl" 

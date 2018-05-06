@@ -1,0 +1,16 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/Zachery Takkesh/Desktop/301/xilinx/and_or_gates/and_or_isim_beh.exe -prj C:/Users/Zachery Takkesh/Desktop/301/xilinx/and_or_gates/and_or_beh.prj work.and_or work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Zachery Takkesh/Desktop/301/xilinx/and_or_gates/and_or.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 193156 KB
+Fuse CPU Usage: 202 ms
+Compiling module and_or
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+ERROR:Simulator:861 - Failed to link the design

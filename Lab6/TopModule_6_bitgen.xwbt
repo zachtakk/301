@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Vinh\Documents\Vu_301\Lab6\TopModule_6.ncd
+OUTFILE=C:\Users\Vinh\Documents\Vu_301\Lab6\TopModule_6.bit
+FAMILY=Artix7
+PART=xc7a100t-3csg324
+WORKINGDIR=C:\Users\Vinh\Documents\Vu_301\Lab6
+LICENSE=WebPack
+USER_INFO=__0_0_0

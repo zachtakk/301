@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Zachery Takkesh\Desktop\Lab7\Lab7_TopModule.ncd
+OUTFILE=C:\Users\Zachery Takkesh\Desktop\Lab7\Lab7_TopModule.bit
+FAMILY=Artix7
+PART=xc7a100t-3csg324
+WORKINGDIR=C:\Users\Zachery Takkesh\Desktop\Lab7
+LICENSE=WebPack
+USER_INFO=__0_0_0
