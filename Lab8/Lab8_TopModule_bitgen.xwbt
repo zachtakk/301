@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\VuEm2\Desktop\CECS 301\Lab Files\Lab8\Lab8\Lab8_TopModule.ncd
+OUTFILE=C:\Users\VuEm2\Desktop\CECS 301\Lab Files\Lab8\Lab8\Lab8_TopModule.bit
+FAMILY=Artix7
+PART=xc7a100t-3csg324
+WORKINGDIR=C:\Users\VuEm2\Desktop\CECS 301\Lab Files\Lab8\Lab8
+LICENSE=WebPack
+USER_INFO=__0_0_0

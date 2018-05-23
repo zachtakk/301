@@ -1,0 +1,87 @@
+xst -intstyle ise -ifn "C:/Users/Vinh/Documents/Vu_301/Lab8/Lab8/Lab8_TopModule.xst" -ofn "C:/Users/Vinh/Documents/Vu_301/Lab8/Lab8/Lab8_TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc uc_no_future.ucf -p xc7a100t-csg324-3 Lab8_TopModule.ngc Lab8_TopModule.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_TopModule_map.ncd Lab8_TopModule.ngd Lab8_TopModule.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_TopModule_map.ncd Lab8_TopModule.ncd Lab8_TopModule.pcf 
+bitgen -intstyle ise -f Lab8_TopModule.ut Lab8_TopModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Vinh/Documents/Vu_301/Lab8/Lab8/Lab8_TopModule.xst" -ofn "C:/Users/Vinh/Documents/Vu_301/Lab8/Lab8/Lab8_TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc uc_no_future.ucf -p xc7a100t-csg324-3 Lab8_TopModule.ngc Lab8_TopModule.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_TopModule_map.ncd Lab8_TopModule.ngd Lab8_TopModule.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_TopModule_map.ncd Lab8_TopModule.ncd Lab8_TopModule.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab8_TopModule.twx Lab8_TopModule.ncd -o Lab8_TopModule.twr Lab8_TopModule.pcf -ucf uc_no_future.ucf 
+bitgen -intstyle ise -f Lab8_TopModule.ut Lab8_TopModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Vinh/Documents/Vu_301/Lab8/Lab8/Lab8_TopModule.xst" -ofn "C:/Users/Vinh/Documents/Vu_301/Lab8/Lab8/Lab8_TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc uc_no_future.ucf -p xc7a100t-csg324-3 Lab8_TopModule.ngc Lab8_TopModule.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_TopModule_map.ncd Lab8_TopModule.ngd Lab8_TopModule.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_TopModule_map.ncd Lab8_TopModule.ncd Lab8_TopModule.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab8_TopModule.twx Lab8_TopModule.ncd -o Lab8_TopModule.twr Lab8_TopModule.pcf -ucf uc_no_future.ucf 
+bitgen -intstyle ise -f Lab8_TopModule.ut Lab8_TopModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Vinh/Documents/Vu_301/Lab8/Lab8/Lab8_TopModule.xst" -ofn "C:/Users/Vinh/Documents/Vu_301/Lab8/Lab8/Lab8_TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc uc_no_future.ucf -p xc7a100t-csg324-3 Lab8_TopModule.ngc Lab8_TopModule.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_TopModule_map.ncd Lab8_TopModule.ngd Lab8_TopModule.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_TopModule_map.ncd Lab8_TopModule.ncd Lab8_TopModule.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab8_TopModule.twx Lab8_TopModule.ncd -o Lab8_TopModule.twr Lab8_TopModule.pcf -ucf uc_no_future.ucf 
+bitgen -intstyle ise -f Lab8_TopModule.ut Lab8_TopModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Vinh/Documents/Vu_301/Lab8/Lab8/Lab8_TopModule.xst" -ofn "C:/Users/Vinh/Documents/Vu_301/Lab8/Lab8/Lab8_TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc uc_no_future.ucf -p xc7a100t-csg324-3 Lab8_TopModule.ngc Lab8_TopModule.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_TopModule_map.ncd Lab8_TopModule.ngd Lab8_TopModule.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_TopModule_map.ncd Lab8_TopModule.ncd Lab8_TopModule.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab8_TopModule.twx Lab8_TopModule.ncd -o Lab8_TopModule.twr Lab8_TopModule.pcf -ucf uc_no_future.ucf 
+bitgen -intstyle ise -f Lab8_TopModule.ut Lab8_TopModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Vinh/Documents/Vu_301/Lab8/Lab8/Lab8_TopModule.xst" -ofn "C:/Users/Vinh/Documents/Vu_301/Lab8/Lab8/Lab8_TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc uc_no_future.ucf -p xc7a100t-csg324-3 Lab8_TopModule.ngc Lab8_TopModule.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_TopModule_map.ncd Lab8_TopModule.ngd Lab8_TopModule.pcf 
+xst -intstyle ise -ifn "C:/Users/Vinh/Documents/Vu_301/Lab8/Lab8/Lab8_TopModule.xst" -ofn "C:/Users/Vinh/Documents/Vu_301/Lab8/Lab8/Lab8_TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc uc_no_future.ucf -p xc7a100t-csg324-3 Lab8_TopModule.ngc Lab8_TopModule.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_TopModule_map.ncd Lab8_TopModule.ngd Lab8_TopModule.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_TopModule_map.ncd Lab8_TopModule.ncd Lab8_TopModule.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab8_TopModule.twx Lab8_TopModule.ncd -o Lab8_TopModule.twr Lab8_TopModule.pcf -ucf uc_no_future.ucf 
+bitgen -intstyle ise -f Lab8_TopModule.ut Lab8_TopModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Vinh/Documents/Vu_301/Lab8/Lab8/Lab8_TopModule.xst" -ofn "C:/Users/Vinh/Documents/Vu_301/Lab8/Lab8/Lab8_TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc uc_no_future.ucf -p xc7a100t-csg324-3 Lab8_TopModule.ngc Lab8_TopModule.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_TopModule_map.ncd Lab8_TopModule.ngd Lab8_TopModule.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_TopModule_map.ncd Lab8_TopModule.ncd Lab8_TopModule.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab8_TopModule.twx Lab8_TopModule.ncd -o Lab8_TopModule.twr Lab8_TopModule.pcf -ucf uc_no_future.ucf 
+bitgen -intstyle ise -f Lab8_TopModule.ut Lab8_TopModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Vinh/Documents/Vu_301/Lab8/Lab8/Lab8_TopModule.xst" -ofn "C:/Users/Vinh/Documents/Vu_301/Lab8/Lab8/Lab8_TopModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Vinh/Documents/Vu_301/Lab8/Lab8/Lab8_TopModule.xst" -ofn "C:/Users/Vinh/Documents/Vu_301/Lab8/Lab8/Lab8_TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc uc_no_future.ucf -p xc7a100t-csg324-3 Lab8_TopModule.ngc Lab8_TopModule.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_TopModule_map.ncd Lab8_TopModule.ngd Lab8_TopModule.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_TopModule_map.ncd Lab8_TopModule.ncd Lab8_TopModule.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab8_TopModule.twx Lab8_TopModule.ncd -o Lab8_TopModule.twr Lab8_TopModule.pcf -ucf uc_no_future.ucf 
+bitgen -intstyle ise -f Lab8_TopModule.ut Lab8_TopModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Vinh/Documents/Vu_301/Lab8/Lab8/Lab8_TopModule.xst" -ofn "C:/Users/Vinh/Documents/Vu_301/Lab8/Lab8/Lab8_TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc uc_no_future.ucf -p xc7a100t-csg324-3 Lab8_TopModule.ngc Lab8_TopModule.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_TopModule_map.ncd Lab8_TopModule.ngd Lab8_TopModule.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_TopModule_map.ncd Lab8_TopModule.ncd Lab8_TopModule.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab8_TopModule.twx Lab8_TopModule.ncd -o Lab8_TopModule.twr Lab8_TopModule.pcf -ucf uc_no_future.ucf 
+bitgen -intstyle ise -f Lab8_TopModule.ut Lab8_TopModule.ncd 
+xst -intstyle ise -ifn "C:/Users/VuEm2/Desktop/CECS 301/Lab Files/Lab8/Lab8/Lab8_TopModule.xst" -ofn "C:/Users/VuEm2/Desktop/CECS 301/Lab Files/Lab8/Lab8/Lab8_TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc uc_no_future.ucf -p xc7a100t-csg324-3 "Lab8_TopModule.ngc" Lab8_TopModule.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_TopModule_map.ncd Lab8_TopModule.ngd Lab8_TopModule.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_TopModule_map.ncd Lab8_TopModule.ncd Lab8_TopModule.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab8_TopModule.twx Lab8_TopModule.ncd -o Lab8_TopModule.twr Lab8_TopModule.pcf -ucf uc_no_future.ucf 
+bitgen -intstyle ise -f Lab8_TopModule.ut Lab8_TopModule.ncd 
+xst -intstyle ise -ifn "C:/Users/VuEm2/Desktop/CECS 301/Lab Files/Lab8/Lab8/Lab8_TopModule.xst" -ofn "C:/Users/VuEm2/Desktop/CECS 301/Lab Files/Lab8/Lab8/Lab8_TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc uc_no_future.ucf -p xc7a100t-csg324-3 "Lab8_TopModule.ngc" Lab8_TopModule.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_TopModule_map.ncd Lab8_TopModule.ngd Lab8_TopModule.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_TopModule_map.ncd Lab8_TopModule.ncd Lab8_TopModule.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab8_TopModule.twx Lab8_TopModule.ncd -o Lab8_TopModule.twr Lab8_TopModule.pcf -ucf uc_no_future.ucf 
+bitgen -intstyle ise -f Lab8_TopModule.ut Lab8_TopModule.ncd 
+xst -intstyle ise -ifn "C:/Users/VuEm2/Desktop/CECS 301/Lab Files/Lab8/Lab8/Lab8_TopModule.xst" -ofn "C:/Users/VuEm2/Desktop/CECS 301/Lab Files/Lab8/Lab8/Lab8_TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc uc_no_future.ucf -p xc7a100t-csg324-3 "Lab8_TopModule.ngc" Lab8_TopModule.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_TopModule_map.ncd Lab8_TopModule.ngd Lab8_TopModule.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_TopModule_map.ncd Lab8_TopModule.ncd Lab8_TopModule.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab8_TopModule.twx Lab8_TopModule.ncd -o Lab8_TopModule.twr Lab8_TopModule.pcf -ucf uc_no_future.ucf 
+bitgen -intstyle ise -f Lab8_TopModule.ut Lab8_TopModule.ncd 
+xst -intstyle ise -ifn "C:/Users/VuEm2/Desktop/CECS 301/Lab Files/Lab8/Lab8/Lab8_TopModule.xst" -ofn "C:/Users/VuEm2/Desktop/CECS 301/Lab Files/Lab8/Lab8/Lab8_TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc uc_no_future.ucf -p xc7a100t-csg324-3 "Lab8_TopModule.ngc" Lab8_TopModule.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_TopModule_map.ncd Lab8_TopModule.ngd Lab8_TopModule.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_TopModule_map.ncd Lab8_TopModule.ncd Lab8_TopModule.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab8_TopModule.twx Lab8_TopModule.ncd -o Lab8_TopModule.twr Lab8_TopModule.pcf -ucf uc_no_future.ucf 
+bitgen -intstyle ise -f Lab8_TopModule.ut Lab8_TopModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/Lab8/Lab8_TopModule.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/Lab8/Lab8_TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc uc_no_future.ucf -p xc7a100t-csg324-3 "Lab8_TopModule.ngc" Lab8_TopModule.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_TopModule_map.ncd Lab8_TopModule.ngd Lab8_TopModule.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_TopModule_map.ncd Lab8_TopModule.ncd Lab8_TopModule.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab8_TopModule.twx Lab8_TopModule.ncd -o Lab8_TopModule.twr Lab8_TopModule.pcf -ucf uc_no_future.ucf 
+xst -intstyle ise -ifn "C:/Users/Zachery Takkesh/Desktop/Lab8/Lab8_TopModule.xst" -ofn "C:/Users/Zachery Takkesh/Desktop/Lab8/Lab8_TopModule.syr" 
